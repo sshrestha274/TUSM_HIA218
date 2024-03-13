@@ -62,7 +62,7 @@ race_probability = [0.55,0.15,0.18, 0.06,0.05,0.01]
 dataset = []
 
 # Generate 10,000 records
-for i in range(200000):
+for i in range(10000):
     record = {
         "id": str(random.randint(10000000, 99999999)),  # 8-digit ID number
         "age": random.choice(random_age),
